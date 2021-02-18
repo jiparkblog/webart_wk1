@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Breath</title>
+    <style>
+  
+body{
+    background:#f5f3eb;
+}
+.circle{
+    width: 300px;
+    height: 300px;
+    background-color:#f5f3eb;
+    margin:170px auto;
+    animation: big 5s alternate infinite ease-in;
+    animation-iteration-count:infinite;
+    border-radius: 50%;
+    box-shadow: 0px 0px 40px red;
+    }
+
+    @keyframes big {
+    0%   {transform: scale(.5);opacity:0}
+    100% {transform: scale(1);opacity:1}
+    }
+    .in{
+        animation: inhale 5s alternate infinite ease-in;
+        animation-iteration-count:infinite;
+    }
+
+   span p{
+
+        color:#302f2f;
+        font-size:18px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
+        font-style: italic;
+    }
+    .one{
+        position:fixed;
+        top:300px;
+        left:20px;
+    }
+    .two{
+        position:fixed;
+        top:150px;
+        right:50px;
+    }
+    .three{
+        position:fixed;
+        bottom:40px;
+        right:300px;
+    }
+    .four{
+        position:fixed;
+        top:100px;
+        right:700px;
+    }
+    .five{
+        position:fixed;
+        top:40px;
+        left:70px;
+    }
+    .six{
+        position:fixed;
+        bottom:120px;
+        left:400px;
+    }
+    .seven{
+        position:fixed;
+        bottom:40px;
+        left:170px;
+    }
+    .eight{
+        position:fixed;
+        bottom:300px;
+        right:190px;
+    }
+  
+    </style>
+  </head>
+  <body>
+      <span class="one"> <p>breath</p></span>
+      <span class="two"> <p>forest</p></span>
+      <span class="three"> <p>moss</p></span>
+      <span class="four"> <p>rain</p></span>
+      <span class="five"> <p>sun</p></span>
+      <span class="six"> <p>night</p></span>
+      <span class="seven"> <p>fish</p></span>
+      <span class="eight"> <p>ladybug</p></span>
+
+    <div class="circle"></div>
+  </body>
+</html>
